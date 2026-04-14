@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="16" result="Failed(Child)" total="16" passed="15" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.2432693">
+  <test-suite type="TestSuite" id="1022" name="Test for green enrergy" fullname="Test for green enrergy" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.243269" total="16" passed="15" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1018" name="GreenEnergy.Tests.PlayMode.dll" fullname="G:/Unity/Projects/GreenEnergy/Library/ScriptAssemblies/GreenEnergy.Tests.PlayMode.dll" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.232162" total="16" passed="15" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="8896" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1001" name="GameManagerIntegrationTests" fullname="GameManagerIntegrationTests" classname="GameManagerIntegrationTests" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.228819" total="16" passed="15" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1011" name="AddEnergyStorage_IncreasesMaxStorageOnEnergyManager" fullname="GameManagerIntegrationTests.AddEnergyStorage_IncreasesMaxStorageOnEnergyManager" methodname="AddEnergyStorage_IncreasesMaxStorageOnEnergyManager" classname="GameManagerIntegrationTests" runstate="Runnable" seed="958572844" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.026139" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="GetLoseCarbonThreshold_Easy_Is600" fullname="GameManagerIntegrationTests.GetLoseCarbonThreshold_Easy_Is600" methodname="GetLoseCarbonThreshold_Easy_Is600" classname="GameManagerIntegrationTests" runstate="Runnable" seed="2121967302" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.014395" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="GetLoseCarbonThreshold_Hard_Is560" fullname="GameManagerIntegrationTests.GetLoseCarbonThreshold_Hard_Is560" methodname="GetLoseCarbonThreshold_Hard_Is560" classname="GameManagerIntegrationTests" runstate="Runnable" seed="1586173551" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.010557" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="GetLoseCarbonThreshold_Normal_Is580" fullname="GameManagerIntegrationTests.GetLoseCarbonThreshold_Normal_Is580" methodname="GetLoseCarbonThreshold_Normal_Is580" classname="GameManagerIntegrationTests" runstate="Runnable" seed="1437320236" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.031020" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1017" name="LoseGame_PausesTime" fullname="GameManagerIntegrationTests.LoseGame_PausesTime" methodname="LoseGame_PausesTime" classname="GameManagerIntegrationTests" runstate="Runnable" seed="727856914" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.013822" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Game Over! Carbon levels too high!
+]]></output>
+        </test-case>
+        <test-case id="1015" name="LoseGame_SetsStateToLost" fullname="GameManagerIntegrationTests.LoseGame_SetsStateToLost" methodname="LoseGame_SetsStateToLost" classname="GameManagerIntegrationTests" runstate="Runnable" seed="231129711" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.011811" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Game Over! Carbon levels too high!
+]]></output>
+        </test-case>
+        <test-case id="1008" name="SetDifficulty_Easy_CurrentTargetCarbon_Is320" fullname="GameManagerIntegrationTests.SetDifficulty_Easy_CurrentTargetCarbon_Is320" methodname="SetDifficulty_Easy_CurrentTargetCarbon_Is320" classname="GameManagerIntegrationTests" runstate="Runnable" seed="2056230808" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.012810" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="SetDifficulty_Hard_CurrentTargetCarbon_Is280" fullname="GameManagerIntegrationTests.SetDifficulty_Hard_CurrentTargetCarbon_Is280" methodname="SetDifficulty_Hard_CurrentTargetCarbon_Is280" classname="GameManagerIntegrationTests" runstate="Runnable" seed="1344841172" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.010451" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="SetDifficulty_Hard_UpdatesCurrentDifficultyField" fullname="GameManagerIntegrationTests.SetDifficulty_Hard_UpdatesCurrentDifficultyField" methodname="SetDifficulty_Hard_UpdatesCurrentDifficultyField" classname="GameManagerIntegrationTests" runstate="Runnable" seed="161889927" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.013026" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1012" name="SetTimeSpeed_Paused_PausesTimeManager" fullname="GameManagerIntegrationTests.SetTimeSpeed_Paused_PausesTimeManager" methodname="SetTimeSpeed_Paused_PausesTimeManager" classname="GameManagerIntegrationTests" runstate="Runnable" seed="45262473" result="Failed" label="Error" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.016989" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[UnityEngine.MissingReferenceException : The object of type 'UnityEngine.GameObject' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.]]></message>
+            <stack-trace><![CDATA[  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x0006a] in <18b3b31e3d8341f487466ebb6800bc67>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <18b3b31e3d8341f487466ebb6800bc67>:0 
+  at UnityEngine.GameObject.GetComponentFastPath (System.Type type, System.IntPtr oneFurtherThanResultValue) [0x00006] in <18b3b31e3d8341f487466ebb6800bc67>:0 
+  at UnityEngine.GameObject.GetComponent[T] () [0x00021] in <18b3b31e3d8341f487466ebb6800bc67>:0 
+  at GameManagerIntegrationTests+<SetTimeSpeed_Paused_PausesTimeManager>d__15.MoveNext () [0x00041] in G:\Unity\Projects\GreenEnergy\Assets\Tests\PlayMode\GameManagerIntegrationTests.cs:152 
+  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44 ]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1013" name="SetTimeSpeed_Speed5x_SetsCorrectSpeedOnTimeManager" fullname="GameManagerIntegrationTests.SetTimeSpeed_Speed5x_SetsCorrectSpeedOnTimeManager" methodname="SetTimeSpeed_Speed5x_SetsCorrectSpeedOnTimeManager" classname="GameManagerIntegrationTests" runstate="Runnable" seed="407803168" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.007465" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="StartingCarbon_ConstantIs420" fullname="GameManagerIntegrationTests.StartingCarbon_ConstantIs420" methodname="StartingCarbon_ConstantIs420" classname="GameManagerIntegrationTests" runstate="Runnable" seed="1549571697" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.007178" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="TryConsumeEnergy_DelegatesToEnergyManager" fullname="GameManagerIntegrationTests.TryConsumeEnergy_DelegatesToEnergyManager" methodname="TryConsumeEnergy_DelegatesToEnergyManager" classname="GameManagerIntegrationTests" runstate="Runnable" seed="1299940316" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.009354" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1010" name="TryConsumeEnergy_InsufficientEnergy_ReturnsFalse" fullname="GameManagerIntegrationTests.TryConsumeEnergy_InsufficientEnergy_ReturnsFalse" methodname="TryConsumeEnergy_InsufficientEnergy_ReturnsFalse" classname="GameManagerIntegrationTests" runstate="Runnable" seed="1439400770" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.007511" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1016" name="WinGame_PausesTime" fullname="GameManagerIntegrationTests.WinGame_PausesTime" methodname="WinGame_PausesTime" classname="GameManagerIntegrationTests" runstate="Runnable" seed="1736641478" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.011095" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[You won! Carbon levels restored to pre-industrial levels!
+]]></output>
+        </test-case>
+        <test-case id="1014" name="WinGame_SetsStateToWon" fullname="GameManagerIntegrationTests.WinGame_SetsStateToWon" methodname="WinGame_SetsStateToWon" classname="GameManagerIntegrationTests" runstate="Runnable" seed="1503094052" result="Passed" start-time="2026-04-13 11:45:05Z" end-time="2026-04-13 11:45:05Z" duration="0.008714" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[You won! Carbon levels restored to pre-industrial levels!
+Saving results to: C:/Users/samni/AppData/LocalLow/DefaultCompany/Test for green enrergy\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

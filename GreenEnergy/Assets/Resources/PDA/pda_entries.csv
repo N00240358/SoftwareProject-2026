@@ -1,0 +1,81 @@
+entryId,category,title,content,audioRef,sortOrder,enabled
+Solar_Tier1,Solar,Solar Power: Getting Started,"Solar panels convert sunlight directly into electricity using photovoltaic cells. They produce most strongly near midday and fall to zero overnight.",,1,true
+Solar_Tier2,Solar,Solar Technology Tier 2,"Tier 2 solar tech improves panel efficiency and inverter control for stronger daytime generation.",,2,true
+Solar_Tier3,Solar,Solar Technology Tier 3,"Tier 3 upgrades improve heat tolerance and conversion efficiency in sunny biomes.",,3,true
+Solar_Tier4,Solar,Solar Technology Tier 4,"Tier 4 solar arrays add better tracking and maintenance automation.",,4,true
+Solar_Tier5,Solar,Solar Technology Tier 5,"Tier 5 introduces advanced cells with stronger low-angle light capture.",,5,true
+Solar_Tier6,Solar,Solar Technology Tier 6,"Tier 6 pushes conversion efficiency and durability in harsh climates.",,6,true
+Solar_Tier7,Solar,Solar Technology Tier 7,"Tier 7 arrays reduce losses and increase output consistency.",,7,true
+Solar_Tier8,Solar,Solar Technology Tier 8,"Tier 8 introduces premium materials and better thermal control.",,8,true
+Solar_Tier9,Solar,Solar Technology Tier 9,"Tier 9 adds highly optimized modules for elite solar performance.",,9,true
+Solar_Tier10,Solar,Solar Technology Tier 10,"Tier 10 delivers peak photovoltaic performance for top-tier clean energy output.",,10,true
+Solar_Milestone25,Solar,Solar Milestone: 25 Installed,"Your first large solar field is online. This scale proves solar can anchor your grid.",,1001,true
+Solar_Milestone50,Solar,Solar Milestone: 50 Installed,"Solar deployment is accelerating. You now support broad daytime demand with clean output.",,1002,true
+Solar_Milestone75,Solar,Solar Milestone: 75 Installed,"A major solar network is established. Grid carbon pressure should begin to ease.",,1003,true
+Solar_Milestone100,Solar,Solar Milestone: 100 Installed,"You have built a massive solar backbone capable of powering whole regions.",,1004,true
+Wind_Tier1,Wind,Wind Power: Harnessing the Breeze,"Wind turbines convert moving air into electricity. Output fluctuates with wind cycles.",,1,true
+Wind_Tier2,Wind,Wind Technology Tier 2,"Tier 2 turbines improve rotor efficiency and control systems.",,2,true
+Wind_Tier3,Wind,Wind Technology Tier 3,"Tier 3 towers and blades increase average output in suitable terrain.",,3,true
+Wind_Tier4,Wind,Wind Technology Tier 4,"Tier 4 reduces downtime and improves low-wind generation.",,4,true
+Wind_Tier5,Wind,Wind Technology Tier 5,"Tier 5 introduces better grid smoothing for variable generation.",,5,true
+Wind_Tier6,Wind,Wind Technology Tier 6,"Tier 6 improves mechanical reliability and output consistency.",,6,true
+Wind_Tier7,Wind,Wind Technology Tier 7,"Tier 7 aerodynamic improvements boost production across wider wind ranges.",,7,true
+Wind_Tier8,Wind,Wind Technology Tier 8,"Tier 8 turbines optimize yaw and pitch for higher sustained output.",,8,true
+Wind_Tier9,Wind,Wind Technology Tier 9,"Tier 9 advances materials and control intelligence for premium generation.",,9,true
+Wind_Tier10,Wind,Wind Technology Tier 10,"Tier 10 delivers best-in-class wind generation and reliability.",,10,true
+Wind_Milestone25,Wind,Wind Milestone: 25 Installed,"Your wind footprint is now significant and helping stabilize carbon trends.",,1001,true
+Wind_Milestone50,Wind,Wind Milestone: 50 Installed,"Wind farms now provide major contribution to your clean energy portfolio.",,1002,true
+Wind_Milestone75,Wind,Wind Milestone: 75 Installed,"Your wind infrastructure is becoming a regional energy cornerstone.",,1003,true
+Wind_Milestone100,Wind,Wind Milestone: 100 Installed,"You have achieved industrial-scale wind deployment.",,1004,true
+Hydroelectric_Tier1,Hydroelectric,Hydroelectric Power: Energy from Water,"Hydroelectric systems convert flowing water into stable electricity and are location-limited.",,1,true
+Hydroelectric_Tier2,Hydroelectric,Hydroelectric Technology Tier 2,"Tier 2 hydro systems improve turbine efficiency and flow handling.",,2,true
+Hydroelectric_Tier3,Hydroelectric,Hydroelectric Technology Tier 3,"Tier 3 improves output with better civil and turbine engineering.",,3,true
+Hydroelectric_Tier4,Hydroelectric,Hydroelectric Technology Tier 4,"Tier 4 introduces stronger environmental and reliability controls.",,4,true
+Hydroelectric_Tier5,Hydroelectric,Hydroelectric Technology Tier 5,"Tier 5 hydro plants improve generation per site.",,5,true
+Hydroelectric_Tier6,Hydroelectric,Hydroelectric Technology Tier 6,"Tier 6 upgrades enhance efficiency under variable flow.",,6,true
+Hydroelectric_Tier7,Hydroelectric,Hydroelectric Technology Tier 7,"Tier 7 increases stability and long-term maintenance performance.",,7,true
+Hydroelectric_Tier8,Hydroelectric,Hydroelectric Technology Tier 8,"Tier 8 adopts advanced turbines and smarter control systems.",,8,true
+Hydroelectric_Tier9,Hydroelectric,Hydroelectric Technology Tier 9,"Tier 9 hydro solutions deliver elite sustained output.",,9,true
+Hydroelectric_Tier10,Hydroelectric,Hydroelectric Technology Tier 10,"Tier 10 maximizes water-to-power conversion and system resilience.",,10,true
+Hydroelectric_Milestone25,Hydroelectric,Hydro Milestone: 25 Installed,"Hydroelectric rollout has reached strong strategic impact.",,1001,true
+Hydroelectric_Milestone50,Hydroelectric,Hydro Milestone: 50 Installed,"Hydro assets now anchor reliable baseload clean power.",,1002,true
+Hydroelectric_Milestone75,Hydroelectric,Hydro Milestone: 75 Installed,"Hydro deployment is now transformative for grid reliability.",,1003,true
+Hydroelectric_Milestone100,Hydroelectric,Hydro Milestone: 100 Installed,"You have achieved extraordinary hydro infrastructure scale.",,1004,true
+Tidal_Tier1,Tidal,Tidal Power: Ocean Energy,"Tidal generation follows predictable marine cycles and performs best in coastal/water zones.",,1,true
+Tidal_Tier2,Tidal,Tidal Technology Tier 2,"Tier 2 tidal systems improve underwater efficiency and durability.",,2,true
+Tidal_Tier3,Tidal,Tidal Technology Tier 3,"Tier 3 upgrades increase output across tidal swings.",,3,true
+Tidal_Tier4,Tidal,Tidal Technology Tier 4,"Tier 4 improves corrosion resistance and reliability.",,4,true
+Tidal_Tier5,Tidal,Tidal Technology Tier 5,"Tier 5 introduces smarter marine controls and monitoring.",,5,true
+Tidal_Tier6,Tidal,Tidal Technology Tier 6,"Tier 6 increases capture efficiency at lower flow intervals.",,6,true
+Tidal_Tier7,Tidal,Tidal Technology Tier 7,"Tier 7 improves grid integration for cyclical energy output.",,7,true
+Tidal_Tier8,Tidal,Tidal Technology Tier 8,"Tier 8 extends maintenance intervals while boosting production.",,8,true
+Tidal_Tier9,Tidal,Tidal Technology Tier 9,"Tier 9 delivers premium marine conversion performance.",,9,true
+Tidal_Tier10,Tidal,Tidal Technology Tier 10,"Tier 10 represents top-tier tidal reliability and output.",,10,true
+Tidal_Milestone25,Tidal,Tidal Milestone: 25 Installed,"Your marine network is now a dependable clean-energy contributor.",,1001,true
+Tidal_Milestone50,Tidal,Tidal Milestone: 50 Installed,"Tidal assets are now a major component of your grid mix.",,1002,true
+Tidal_Milestone75,Tidal,Tidal Milestone: 75 Installed,"Large-scale tidal deployment is now reducing carbon pressure significantly.",,1003,true
+Tidal_Milestone100,Tidal,Tidal Milestone: 100 Installed,"You have built an extensive tidal infrastructure.",,1004,true
+Nuclear_Tier1,Nuclear,Nuclear Power: High-Density Energy,"Nuclear reactors provide high, stable output with zero direct carbon emissions.",,1,true
+Nuclear_Tier2,Nuclear,Nuclear Technology Tier 2,"Tier 2 reactor design improves safety and operational efficiency.",,2,true
+Nuclear_Tier3,Nuclear,Nuclear Technology Tier 3,"Tier 3 advances fuel use and increases output resilience.",,3,true
+Nuclear_Tier4,Nuclear,Nuclear Technology Tier 4,"Tier 4 improves cooling systems and reliability.",,4,true
+Nuclear_Tier5,Nuclear,Nuclear Technology Tier 5,"Tier 5 increases efficiency and safety automation.",,5,true
+Nuclear_Tier6,Nuclear,Nuclear Technology Tier 6,"Tier 6 optimizes control systems for stable generation.",,6,true
+Nuclear_Tier7,Nuclear,Nuclear Technology Tier 7,"Tier 7 increases reliability while reducing maintenance interruptions.",,7,true
+Nuclear_Tier8,Nuclear,Nuclear Technology Tier 8,"Tier 8 reactor upgrades improve sustained clean output.",,8,true
+Nuclear_Tier9,Nuclear,Nuclear Technology Tier 9,"Tier 9 features advanced safety and exceptional output density.",,9,true
+Nuclear_Tier10,Nuclear,Nuclear Technology Tier 10,"Tier 10 represents peak nuclear performance for long-term decarbonization.",,10,true
+Nuclear_Milestone25,Nuclear,Nuclear Milestone: 25 Installed,"Nuclear generation now provides substantial stable clean baseload.",,1001,true
+Nuclear_Milestone50,Nuclear,Nuclear Milestone: 50 Installed,"Nuclear power has become a dominant force in your grid.",,1002,true
+Nuclear_Milestone75,Nuclear,Nuclear Milestone: 75 Installed,"Nuclear deployment is accelerating your path to climate recovery.",,1003,true
+Nuclear_Milestone100,Nuclear,Nuclear Milestone: 100 Installed,"You have achieved unprecedented nuclear rollout scale.",,1004,true
+Battery_Tier1,Battery,Energy Storage Tier 1,"Tier 1 storage increases max energy capacity and reduces overflow waste.",,1,true
+Battery_Tier2,Battery,Energy Storage Tier 2,"Tier 2 batteries expand storage buffers for variable generation.",,2,true
+Battery_Tier3,Battery,Energy Storage Tier 3,"Tier 3 storage improves reliability across day-night cycles.",,3,true
+Battery_Tier4,Battery,Energy Storage Tier 4,"Tier 4 batteries increase reserve depth for strategic flexibility.",,4,true
+Battery_Tier5,Battery,Energy Storage Tier 5,"Tier 5 storage supports larger renewable fleets without curtailment.",,5,true
+Battery_Tier6,Battery,Energy Storage Tier 6,"Tier 6 enhances capacity and discharge control.",,6,true
+Battery_Tier7,Battery,Energy Storage Tier 7,"Tier 7 storage significantly smooths intermittent generation.",,7,true
+Battery_Tier8,Battery,Energy Storage Tier 8,"Tier 8 provides deep reserves for long low-production windows.",,8,true
+Battery_Tier9,Battery,Energy Storage Tier 9,"Tier 9 storage enables highly resilient clean-grid operation.",,9,true
+Battery_Tier10,Battery,Energy Storage Tier 10,"Tier 10 delivers top-tier storage capacity for sustained decarbonization.",,10,true

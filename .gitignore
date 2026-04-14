@@ -2,6 +2,19 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+
+# Unity project in subfolder
+GreenEnergy/Library/
+GreenEnergy/Temp/
+GreenEnergy/Obj/
+GreenEnergy/Build/
+GreenEnergy/Builds/
+GreenEnergy/Logs/
+GreenEnergy/UserSettings/
+GreenEnergy/.utmp/
+GreenEnergy/MemoryCaptures/
+GreenEnergy/Recordings/
+
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/

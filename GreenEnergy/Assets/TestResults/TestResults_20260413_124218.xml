@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="203" result="Passed" total="203" passed="203" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.168185">
+  <test-suite type="TestSuite" id="1225" name="Test for green enrergy" fullname="Test for green enrergy" runstate="Runnable" testcasecount="203" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.168185" total="203" passed="203" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1217" name="GreenEnergy.Tests.EditMode.dll" fullname="G:/Unity/Projects/GreenEnergy/Library/ScriptAssemblies/GreenEnergy.Tests.EditMode.dll" runstate="Runnable" testcasecount="203" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.158884" total="203" passed="203" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="8896" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="DifficultyBalanceTests" fullname="DifficultyBalanceTests" classname="DifficultyBalanceTests" runstate="Runnable" testcasecount="30" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.039576" total="30" passed="30" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1003" name="GetProfile_Easy_HasCorrectGeneratorOutputMultiplier" fullname="DifficultyBalanceTests.GetProfile_Easy_HasCorrectGeneratorOutputMultiplier" methodname="GetProfile_Easy_HasCorrectGeneratorOutputMultiplier" classname="DifficultyBalanceTests" runstate="Runnable" seed="52365093" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.013344" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="GetProfile_Easy_HasCorrectResearchCostMultiplier" fullname="DifficultyBalanceTests.GetProfile_Easy_HasCorrectResearchCostMultiplier" methodname="GetProfile_Easy_HasCorrectResearchCostMultiplier" classname="DifficultyBalanceTests" runstate="Runnable" seed="1209587903" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000102" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="GetProfile_Easy_HasCorrectTargetCarbon" fullname="DifficultyBalanceTests.GetProfile_Easy_HasCorrectTargetCarbon" methodname="GetProfile_Easy_HasCorrectTargetCarbon" classname="DifficultyBalanceTests" runstate="Runnable" seed="865838486" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000085" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="GetProfile_Easy_LoseThresholdIs600" fullname="DifficultyBalanceTests.GetProfile_Easy_LoseThresholdIs600" methodname="GetProfile_Easy_LoseThresholdIs600" classname="DifficultyBalanceTests" runstate="Runnable" seed="2068113689" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000118" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1011" name="GetProfile_Hard_HasCorrectGeneratorOutputMultiplier" fullname="DifficultyBalanceTests.GetProfile_Hard_HasCorrectGeneratorOutputMultiplier" methodname="GetProfile_Hard_HasCorrectGeneratorOutputMultiplier" classname="DifficultyBalanceTests" runstate="Runnable" seed="1814750858" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000080" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1012" name="GetProfile_Hard_HasCorrectResearchCostMultiplier" fullname="DifficultyBalanceTests.GetProfile_Hard_HasCorrectResearchCostMultiplier" methodname="GetProfile_Hard_HasCorrectResearchCostMultiplier" classname="DifficultyBalanceTests" runstate="Runnable" seed="230285215" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000082" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1010" name="GetProfile_Hard_HasCorrectTargetCarbon" fullname="DifficultyBalanceTests.GetProfile_Hard_HasCorrectTargetCarbon" methodname="GetProfile_Hard_HasCorrectTargetCarbon" classname="DifficultyBalanceTests" runstate="Runnable" seed="1205921718" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000076" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1013" name="GetProfile_Hard_LoseThresholdIs560" fullname="DifficultyBalanceTests.GetProfile_Hard_LoseThresholdIs560" methodname="GetProfile_Hard_LoseThresholdIs560" classname="DifficultyBalanceTests" runstate="Runnable" seed="1124250760" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000127" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1008" name="GetProfile_Normal_HasCorrectCarbonReductionMultiplier" fullname="DifficultyBalanceTests.GetProfile_Normal_HasCorrectCarbonReductionMultiplier" methodname="GetProfile_Normal_HasCorrectCarbonReductionMultiplier" classname="DifficultyBalanceTests" runstate="Runnable" seed="815278275" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000085" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="GetProfile_Normal_HasCorrectGeneratorOutputMultiplier" fullname="DifficultyBalanceTests.GetProfile_Normal_HasCorrectGeneratorOutputMultiplier" methodname="GetProfile_Normal_HasCorrectGeneratorOutputMultiplier" classname="DifficultyBalanceTests" runstate="Runnable" seed="1772014337" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000076" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="GetProfile_Normal_HasCorrectTargetCarbon" fullname="DifficultyBalanceTests.GetProfile_Normal_HasCorrectTargetCarbon" methodname="GetProfile_Normal_HasCorrectTargetCarbon" classname="DifficultyBalanceTests" runstate="Runnable" seed="828907498" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000075" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="GetProfile_Normal_LoseThresholdIs580" fullname="DifficultyBalanceTests.GetProfile_Normal_LoseThresholdIs580" methodname="GetProfile_Normal_LoseThresholdIs580" classname="DifficultyBalanceTests" runstate="Runnable" seed="1465047476" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000081" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1019" name="GetProfile_UnknownDifficulty_FallsBackToNormal" fullname="DifficultyBalanceTests.GetProfile_UnknownDifficulty_FallsBackToNormal" methodname="GetProfile_UnknownDifficulty_FallsBackToNormal" classname="DifficultyBalanceTests" runstate="Runnable" seed="1624220700" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000100" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1015" name="Hard_HasHigherResearchCostMultiplier_ThanEasy" fullname="DifficultyBalanceTests.Hard_HasHigherResearchCostMultiplier_ThanEasy" methodname="Hard_HasHigherResearchCostMultiplier_ThanEasy" classname="DifficultyBalanceTests" runstate="Runnable" seed="548286078" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.002333" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1018" name="Hard_HasLongerResearchTime_ThanEasy" fullname="DifficultyBalanceTests.Hard_HasLongerResearchTime_ThanEasy" methodname="Hard_HasLongerResearchTime_ThanEasy" classname="DifficultyBalanceTests" runstate="Runnable" seed="1215908968" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000112" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1016" name="Hard_HasLowerGeneratorOutputMultiplier_ThanEasy" fullname="DifficultyBalanceTests.Hard_HasLowerGeneratorOutputMultiplier_ThanEasy" methodname="Hard_HasLowerGeneratorOutputMultiplier_ThanEasy" classname="DifficultyBalanceTests" runstate="Runnable" seed="1154915906" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000208" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1014" name="Hard_HasLowerTargetCarbon_ThanEasy" fullname="DifficultyBalanceTests.Hard_HasLowerTargetCarbon_ThanEasy" methodname="Hard_HasLowerTargetCarbon_ThanEasy" classname="DifficultyBalanceTests" runstate="Runnable" seed="1903541871" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000097" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1017" name="Hard_HasNarrowerLoseMargin_ThanEasy" fullname="DifficultyBalanceTests.Hard_HasNarrowerLoseMargin_ThanEasy" methodname="Hard_HasNarrowerLoseMargin_ThanEasy" classname="DifficultyBalanceTests" runstate="Runnable" seed="90092436" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000093" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1031" name="TryParseDifficulty_EmptyString_ReturnsFalse" fullname="DifficultyBalanceTests.TryParseDifficulty_EmptyString_ReturnsFalse" methodname="TryParseDifficulty_EmptyString_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" seed="1443690402" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000422" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1030" name="TryParseDifficulty_InvalidString_ReturnsFalse" fullname="DifficultyBalanceTests.TryParseDifficulty_InvalidString_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.004539" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1024" name="TryParseDifficulty_InvalidString_ReturnsFalse(&quot;easy&quot;)" fullname="DifficultyBalanceTests.TryParseDifficulty_InvalidString_ReturnsFalse(&quot;easy&quot;)" methodname="TryParseDifficulty_InvalidString_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" seed="1693204570" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000245" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1025" name="TryParseDifficulty_InvalidString_ReturnsFalse(&quot;NORMAL&quot;)" fullname="DifficultyBalanceTests.TryParseDifficulty_InvalidString_ReturnsFalse(&quot;NORMAL&quot;)" methodname="TryParseDifficulty_InvalidString_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" seed="1130801490" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000035" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1026" name="TryParseDifficulty_InvalidString_ReturnsFalse(&quot;HARD&quot;)" fullname="DifficultyBalanceTests.TryParseDifficulty_InvalidString_ReturnsFalse(&quot;HARD&quot;)" methodname="TryParseDifficulty_InvalidString_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" seed="2119168389" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000033" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1027" name="TryParseDifficulty_InvalidString_ReturnsFalse(&quot;Medium&quot;)" fullname="DifficultyBalanceTests.TryParseDifficulty_InvalidString_ReturnsFalse(&quot;Medium&quot;)" methodname="TryParseDifficulty_InvalidString_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" seed="1651960093" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000079" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1028" name="TryParseDifficulty_InvalidString_ReturnsFalse(&quot;&quot;)" fullname="DifficultyBalanceTests.TryParseDifficulty_InvalidString_ReturnsFalse(&quot;&quot;)" methodname="TryParseDifficulty_InvalidString_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" seed="631376986" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000031" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1029" name="TryParseDifficulty_InvalidString_ReturnsFalse(&quot; Normal&quot;)" fullname="DifficultyBalanceTests.TryParseDifficulty_InvalidString_ReturnsFalse(&quot; Normal&quot;)" methodname="TryParseDifficulty_InvalidString_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" seed="814521572" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000056" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1033" name="TryParseDifficulty_LeadingSpace_ReturnsTrue" fullname="DifficultyBalanceTests.TryParseDifficulty_LeadingSpace_ReturnsTrue" methodname="TryParseDifficulty_LeadingSpace_ReturnsTrue" classname="DifficultyBalanceTests" runstate="Runnable" seed="1632818089" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000278" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1032" name="TryParseDifficulty_UnknownName_ReturnsFalse" fullname="DifficultyBalanceTests.TryParseDifficulty_UnknownName_ReturnsFalse" methodname="TryParseDifficulty_UnknownName_ReturnsFalse" classname="DifficultyBalanceTests" runstate="Runnable" seed="443359793" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000078" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1023" name="TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum" fullname="DifficultyBalanceTests.TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum" classname="DifficultyBalanceTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.003748" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1020" name="TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum(&quot;Easy&quot;,Easy)" fullname="DifficultyBalanceTests.TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum(&quot;Easy&quot;,Easy)" methodname="TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum" classname="DifficultyBalanceTests" runstate="Runnable" seed="772574963" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.001207" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1021" name="TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum(&quot;Normal&quot;,Normal)" fullname="DifficultyBalanceTests.TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum(&quot;Normal&quot;,Normal)" methodname="TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum" classname="DifficultyBalanceTests" runstate="Runnable" seed="1736795853" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000058" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1022" name="TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum(&quot;Hard&quot;,Hard)" fullname="DifficultyBalanceTests.TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum(&quot;Hard&quot;,Hard)" methodname="TryParseDifficulty_ValidString_ReturnsTrueAndCorrectEnum" classname="DifficultyBalanceTests" runstate="Runnable" seed="1671891964" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000048" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="1034" name="EnergyManagerTests" fullname="EnergyManagerTests" classname="EnergyManagerTests" runstate="Runnable" testcasecount="17" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.012157" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1044" name="AddEnergy_BelowCap_AddsCorrectAmount" fullname="EnergyManagerTests.AddEnergy_BelowCap_AddsCorrectAmount" methodname="AddEnergy_BelowCap_AddsCorrectAmount" classname="EnergyManagerTests" runstate="Runnable" seed="516000401" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.002348" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1046" name="AddEnergy_ExactlyFillsStorage_DoesNotExceedMax" fullname="EnergyManagerTests.AddEnergy_ExactlyFillsStorage_DoesNotExceedMax" methodname="AddEnergy_ExactlyFillsStorage_DoesNotExceedMax" classname="EnergyManagerTests" runstate="Runnable" seed="1962439704" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000178" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1045" name="AddEnergy_ExceedsCap_ClampsToMaxStorage" fullname="EnergyManagerTests.AddEnergy_ExceedsCap_ClampsToMaxStorage" methodname="AddEnergy_ExceedsCap_ClampsToMaxStorage" classname="EnergyManagerTests" runstate="Runnable" seed="1003643641" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000160" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1047" name="AddEnergy_WhenAlreadyFull_StaysAtMax" fullname="EnergyManagerTests.AddEnergy_WhenAlreadyFull_StaysAtMax" methodname="AddEnergy_WhenAlreadyFull_StaysAtMax" classname="EnergyManagerTests" runstate="Runnable" seed="1220663530" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000159" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1050" name="GetEnergyPercentage_Empty_Returns0" fullname="EnergyManagerTests.GetEnergyPercentage_Empty_Returns0" methodname="GetEnergyPercentage_Empty_Returns0" classname="EnergyManagerTests" runstate="Runnable" seed="1149343338" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000187" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1049" name="GetEnergyPercentage_Full_Returns1" fullname="EnergyManagerTests.GetEnergyPercentage_Full_Returns1" methodname="GetEnergyPercentage_Full_Returns1" classname="EnergyManagerTests" runstate="Runnable" seed="1727965688" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000156" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1048" name="GetEnergyPercentage_HalfFull_Returns0Point5" fullname="EnergyManagerTests.GetEnergyPercentage_HalfFull_Returns0Point5" methodname="GetEnergyPercentage_HalfFull_Returns0Point5" classname="EnergyManagerTests" runstate="Runnable" seed="848729001" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000152" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1051" name="GetEnergyPercentage_ZeroMaxStorage_Returns0NotNaN" fullname="EnergyManagerTests.GetEnergyPercentage_ZeroMaxStorage_Returns0NotNaN" methodname="GetEnergyPercentage_ZeroMaxStorage_Returns0NotNaN" classname="EnergyManagerTests" runstate="Runnable" seed="1783265087" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000188" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1037" name="TryConsumeEnergy_ExactAmount_ReturnsTrueAndZeroesEnergy" fullname="EnergyManagerTests.TryConsumeEnergy_ExactAmount_ReturnsTrueAndZeroesEnergy" methodname="TryConsumeEnergy_ExactAmount_ReturnsTrueAndZeroesEnergy" classname="EnergyManagerTests" runstate="Runnable" seed="1560207994" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000219" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1039" name="TryConsumeEnergy_InsufficientEnergy_DoesNotChangeCurrentEnergy" fullname="EnergyManagerTests.TryConsumeEnergy_InsufficientEnergy_DoesNotChangeCurrentEnergy" methodname="TryConsumeEnergy_InsufficientEnergy_DoesNotChangeCurrentEnergy" classname="EnergyManagerTests" runstate="Runnable" seed="1181955472" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000158" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1038" name="TryConsumeEnergy_InsufficientEnergy_ReturnsFalse" fullname="EnergyManagerTests.TryConsumeEnergy_InsufficientEnergy_ReturnsFalse" methodname="TryConsumeEnergy_InsufficientEnergy_ReturnsFalse" classname="EnergyManagerTests" runstate="Runnable" seed="62377406" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000148" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1043" name="TryConsumeEnergy_NegativeAmount_DoesNotChangeEnergy" fullname="EnergyManagerTests.TryConsumeEnergy_NegativeAmount_DoesNotChangeEnergy" methodname="TryConsumeEnergy_NegativeAmount_DoesNotChangeEnergy" classname="EnergyManagerTests" runstate="Runnable" seed="816856890" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.001502" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[EnergyManager: Cannot consume negative energy!
+]]></output>
+        </test-case>
+        <test-case id="1042" name="TryConsumeEnergy_NegativeAmount_ReturnsFalse" fullname="EnergyManagerTests.TryConsumeEnergy_NegativeAmount_ReturnsFalse" methodname="TryConsumeEnergy_NegativeAmount_ReturnsFalse" classname="EnergyManagerTests" runstate="Runnable" seed="117150176" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000558" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[EnergyManager: Cannot consume negative energy!
+]]></output>
+        </test-case>
+        <test-case id="1036" name="TryConsumeEnergy_SufficientEnergy_DeductsCorrectAmount" fullname="EnergyManagerTests.TryConsumeEnergy_SufficientEnergy_DeductsCorrectAmount" methodname="TryConsumeEnergy_SufficientEnergy_DeductsCorrectAmount" classname="EnergyManagerTests" runstate="Runnable" seed="1681757456" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000175" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1035" name="TryConsumeEnergy_SufficientEnergy_ReturnsTrue" fullname="EnergyManagerTests.TryConsumeEnergy_SufficientEnergy_ReturnsTrue" methodname="TryConsumeEnergy_SufficientEnergy_ReturnsTrue" classname="EnergyManagerTests" runstate="Runnable" seed="1946436833" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000167" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1041" name="TryConsumeEnergy_ZeroAmount_DoesNotChangeEnergy" fullname="EnergyManagerTests.TryConsumeEnergy_ZeroAmount_DoesNotChangeEnergy" methodname="TryConsumeEnergy_ZeroAmount_DoesNotChangeEnergy" classname="EnergyManagerTests" runstate="Runnable" seed="336883567" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000157" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1040" name="TryConsumeEnergy_ZeroAmount_ReturnsTrue" fullname="EnergyManagerTests.TryConsumeEnergy_ZeroAmount_ReturnsTrue" methodname="TryConsumeEnergy_ZeroAmount_ReturnsTrue" classname="EnergyManagerTests" runstate="Runnable" seed="1016273206" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1052" name="GeneratorManagerCostTests" fullname="GeneratorManagerCostTests" classname="GeneratorManagerCostTests" runstate="Runnable" testcasecount="21" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.021971" total="21" passed="21" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1064" name="GetPlacementCost_HigherTierAlwaysMoreExpensive" fullname="GeneratorManagerCostTests.GetPlacementCost_HigherTierAlwaysMoreExpensive" methodname="GetPlacementCost_HigherTierAlwaysMoreExpensive" classname="GeneratorManagerCostTests" runstate="Runnable" seed="975136043" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000999" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1063" name="GetPlacementCost_Nuclear_Tier10_Is3330" fullname="GeneratorManagerCostTests.GetPlacementCost_Nuclear_Tier10_Is3330" methodname="GetPlacementCost_Nuclear_Tier10_Is3330" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1699545767" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000180" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1062" name="GetPlacementCost_Nuclear_Tier2_Is1170" fullname="GeneratorManagerCostTests.GetPlacementCost_Nuclear_Tier2_Is1170" methodname="GetPlacementCost_Nuclear_Tier2_Is1170" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1319972438" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000160" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1061" name="GetPlacementCost_Solar_Tier10_Is296" fullname="GeneratorManagerCostTests.GetPlacementCost_Solar_Tier10_Is296" methodname="GetPlacementCost_Solar_Tier10_Is296" classname="GeneratorManagerCostTests" runstate="Runnable" seed="2081986281" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000157" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1059" name="GetPlacementCost_Solar_Tier2_Is104" fullname="GeneratorManagerCostTests.GetPlacementCost_Solar_Tier2_Is104" methodname="GetPlacementCost_Solar_Tier2_Is104" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1791121163" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000157" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1060" name="GetPlacementCost_Solar_Tier5_Is176" fullname="GeneratorManagerCostTests.GetPlacementCost_Solar_Tier5_Is176" methodname="GetPlacementCost_Solar_Tier5_Is176" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1498304702" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000152" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1058" name="GetPlacementCost_Tier1_ReturnsBaseCost" fullname="GeneratorManagerCostTests.GetPlacementCost_Tier1_ReturnsBaseCost" classname="GeneratorManagerCostTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.006312" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1053" name="GetPlacementCost_Tier1_ReturnsBaseCost(Solar,1,80.0f)" fullname="GeneratorManagerCostTests.GetPlacementCost_Tier1_ReturnsBaseCost(Solar,1,80.0f)" methodname="GetPlacementCost_Tier1_ReturnsBaseCost" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1663360722" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000434" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1054" name="GetPlacementCost_Tier1_ReturnsBaseCost(Wind,1,120.0f)" fullname="GeneratorManagerCostTests.GetPlacementCost_Tier1_ReturnsBaseCost(Wind,1,120.0f)" methodname="GetPlacementCost_Tier1_ReturnsBaseCost" classname="GeneratorManagerCostTests" runstate="Runnable" seed="479821460" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000147" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1055" name="GetPlacementCost_Tier1_ReturnsBaseCost(Hydroelectric,1,240.0f)" fullname="GeneratorManagerCostTests.GetPlacementCost_Tier1_ReturnsBaseCost(Hydroelectric,1,240.0f)" methodname="GetPlacementCost_Tier1_ReturnsBaseCost" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1612197085" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000136" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1056" name="GetPlacementCost_Tier1_ReturnsBaseCost(Tidal,1,180.0f)" fullname="GeneratorManagerCostTests.GetPlacementCost_Tier1_ReturnsBaseCost(Tidal,1,180.0f)" methodname="GetPlacementCost_Tier1_ReturnsBaseCost" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1233354203" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000132" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1057" name="GetPlacementCost_Tier1_ReturnsBaseCost(Nuclear,1,900.0f)" fullname="GeneratorManagerCostTests.GetPlacementCost_Tier1_ReturnsBaseCost(Nuclear,1,900.0f)" methodname="GetPlacementCost_Tier1_ReturnsBaseCost" classname="GeneratorManagerCostTests" runstate="Runnable" seed="160271832" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000148" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1074" name="GetUpgradeCost_HigherTargetTierCostsMore" fullname="GeneratorManagerCostTests.GetUpgradeCost_HigherTargetTierCostsMore" methodname="GetUpgradeCost_HigherTargetTierCostsMore" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1224957229" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000288" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1075" name="GetUpgradeCost_NuclearTier10_IsHighestUpgradeCost" fullname="GeneratorManagerCostTests.GetUpgradeCost_NuclearTier10_IsHighestUpgradeCost" methodname="GetUpgradeCost_NuclearTier10_IsHighestUpgradeCost" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1128031530" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000199" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1073" name="GetUpgradeCost_ReturnsCorrectValue" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.008134" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1065" name="GetUpgradeCost_ReturnsCorrectValue(Solar,2,80.0f)" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue(Solar,2,80.0f)" methodname="GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1469091641" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000325" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1066" name="GetUpgradeCost_ReturnsCorrectValue(Solar,5,200.0f)" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue(Solar,5,200.0f)" methodname="GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" seed="843945530" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000162" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1067" name="GetUpgradeCost_ReturnsCorrectValue(Solar,10,400.0f)" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue(Solar,10,400.0f)" methodname="GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" seed="845894968" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000143" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1068" name="GetUpgradeCost_ReturnsCorrectValue(Wind,2,120.0f)" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue(Wind,2,120.0f)" methodname="GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1293496008" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000141" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1069" name="GetUpgradeCost_ReturnsCorrectValue(Hydroelectric,2,240.0f)" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue(Hydroelectric,2,240.0f)" methodname="GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1116898354" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000139" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1070" name="GetUpgradeCost_ReturnsCorrectValue(Tidal,2,180.0f)" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue(Tidal,2,180.0f)" methodname="GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" seed="674533527" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000137" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1071" name="GetUpgradeCost_ReturnsCorrectValue(Nuclear,2,900.0f)" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue(Nuclear,2,900.0f)" methodname="GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1957856624" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000137" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1072" name="GetUpgradeCost_ReturnsCorrectValue(Nuclear,10,4500.0f)" fullname="GeneratorManagerCostTests.GetUpgradeCost_ReturnsCorrectValue(Nuclear,10,4500.0f)" methodname="GetUpgradeCost_ReturnsCorrectValue" classname="GeneratorManagerCostTests" runstate="Runnable" seed="1506920118" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000137" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="1076" name="MapGeneratorTests" fullname="MapGeneratorTests" classname="MapGeneratorTests" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.020283" total="56" passed="56" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1100" name="CanPlace_Hydro_OnDesert_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Hydro_OnDesert_ReturnsFalse" methodname="CanPlace_Hydro_OnDesert_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="1401796807" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000685" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1098" name="CanPlace_Hydro_OnForest_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Hydro_OnForest_ReturnsTrue" methodname="CanPlace_Hydro_OnForest_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="1901196354" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000195" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1097" name="CanPlace_Hydro_OnMountain_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Hydro_OnMountain_ReturnsTrue" methodname="CanPlace_Hydro_OnMountain_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="257747697" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000167" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1099" name="CanPlace_Hydro_OnPlains_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Hydro_OnPlains_ReturnsFalse" methodname="CanPlace_Hydro_OnPlains_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="1724725086" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000156" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1101" name="CanPlace_Hydro_OnWater_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Hydro_OnWater_ReturnsFalse" methodname="CanPlace_Hydro_OnWater_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="961219126" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000154" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1112" name="CanPlace_Nuclear_OnCoastal_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Nuclear_OnCoastal_ReturnsFalse" methodname="CanPlace_Nuclear_OnCoastal_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="1010406123" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1107" name="CanPlace_Nuclear_OnDesert_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Nuclear_OnDesert_ReturnsTrue" methodname="CanPlace_Nuclear_OnDesert_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="1292026472" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000157" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1109" name="CanPlace_Nuclear_OnForest_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Nuclear_OnForest_ReturnsTrue" methodname="CanPlace_Nuclear_OnForest_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="922579226" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000152" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1110" name="CanPlace_Nuclear_OnMountain_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Nuclear_OnMountain_ReturnsFalse" methodname="CanPlace_Nuclear_OnMountain_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="2126747631" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000150" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1108" name="CanPlace_Nuclear_OnPlains_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Nuclear_OnPlains_ReturnsTrue" methodname="CanPlace_Nuclear_OnPlains_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="773762256" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1111" name="CanPlace_Nuclear_OnWater_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Nuclear_OnWater_ReturnsFalse" methodname="CanPlace_Nuclear_OnWater_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="759178025" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1087" name="CanPlace_Solar_OnCoastal_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Solar_OnCoastal_ReturnsTrue" methodname="CanPlace_Solar_OnCoastal_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="466030060" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000155" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1085" name="CanPlace_Solar_OnDesert_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Solar_OnDesert_ReturnsTrue" methodname="CanPlace_Solar_OnDesert_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="2132967126" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1088" name="CanPlace_Solar_OnForest_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Solar_OnForest_ReturnsTrue" methodname="CanPlace_Solar_OnForest_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="1838594213" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000152" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1089" name="CanPlace_Solar_OnMountain_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Solar_OnMountain_ReturnsFalse" methodname="CanPlace_Solar_OnMountain_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="605098996" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000152" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1086" name="CanPlace_Solar_OnPlains_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Solar_OnPlains_ReturnsTrue" methodname="CanPlace_Solar_OnPlains_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="621337165" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000156" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1090" name="CanPlace_Solar_OnWater_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Solar_OnWater_ReturnsFalse" methodname="CanPlace_Solar_OnWater_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="1257845577" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000153" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1102" name="CanPlace_Tidal_OnCoastal_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Tidal_OnCoastal_ReturnsTrue" methodname="CanPlace_Tidal_OnCoastal_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="130980470" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1104" name="CanPlace_Tidal_OnDesert_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Tidal_OnDesert_ReturnsFalse" methodname="CanPlace_Tidal_OnDesert_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="464260192" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000153" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1106" name="CanPlace_Tidal_OnMountain_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Tidal_OnMountain_ReturnsFalse" methodname="CanPlace_Tidal_OnMountain_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="238535611" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1105" name="CanPlace_Tidal_OnPlains_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Tidal_OnPlains_ReturnsFalse" methodname="CanPlace_Tidal_OnPlains_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="2106438684" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000150" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1103" name="CanPlace_Tidal_OnWater_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Tidal_OnWater_ReturnsTrue" methodname="CanPlace_Tidal_OnWater_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="1225185475" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1092" name="CanPlace_Wind_OnCoastal_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Wind_OnCoastal_ReturnsTrue" methodname="CanPlace_Wind_OnCoastal_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="169245517" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000150" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1094" name="CanPlace_Wind_OnDesert_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Wind_OnDesert_ReturnsFalse" methodname="CanPlace_Wind_OnDesert_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="1147233428" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000151" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1096" name="CanPlace_Wind_OnForest_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Wind_OnForest_ReturnsFalse" methodname="CanPlace_Wind_OnForest_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="484902365" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000150" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1093" name="CanPlace_Wind_OnMountain_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Wind_OnMountain_ReturnsTrue" methodname="CanPlace_Wind_OnMountain_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="581615872" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000149" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1091" name="CanPlace_Wind_OnPlains_ReturnsTrue" fullname="MapGeneratorTests.CanPlace_Wind_OnPlains_ReturnsTrue" methodname="CanPlace_Wind_OnPlains_ReturnsTrue" classname="MapGeneratorTests" runstate="Runnable" seed="870144410" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000149" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1095" name="CanPlace_Wind_OnWater_ReturnsFalse" fullname="MapGeneratorTests.CanPlace_Wind_OnWater_ReturnsFalse" methodname="CanPlace_Wind_OnWater_ReturnsFalse" classname="MapGeneratorTests" runstate="Runnable" seed="575973076" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000149" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1125" name="Efficiency_Hydro_Desert_IsZero" fullname="MapGeneratorTests.Efficiency_Hydro_Desert_IsZero" methodname="Efficiency_Hydro_Desert_IsZero" classname="MapGeneratorTests" runstate="Runnable" seed="1515682729" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000245" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1124" name="Efficiency_Hydro_Forest_Is1Point0" fullname="MapGeneratorTests.Efficiency_Hydro_Forest_Is1Point0" methodname="Efficiency_Hydro_Forest_Is1Point0" classname="MapGeneratorTests" runstate="Runnable" seed="1592026535" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000160" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1123" name="Efficiency_Hydro_Mountain_Is1Point3" fullname="MapGeneratorTests.Efficiency_Hydro_Mountain_Is1Point3" methodname="Efficiency_Hydro_Mountain_Is1Point3" classname="MapGeneratorTests" runstate="Runnable" seed="1785190051" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000187" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1129" name="Efficiency_Nuclear_Desert_Is1Point0" fullname="MapGeneratorTests.Efficiency_Nuclear_Desert_Is1Point0" methodname="Efficiency_Nuclear_Desert_Is1Point0" classname="MapGeneratorTests" runstate="Runnable" seed="1460051650" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000201" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1131" name="Efficiency_Nuclear_Mountain_Is1Point0" fullname="MapGeneratorTests.Efficiency_Nuclear_Mountain_Is1Point0" methodname="Efficiency_Nuclear_Mountain_Is1Point0" classname="MapGeneratorTests" runstate="Runnable" seed="209252785" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000173" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1130" name="Efficiency_Nuclear_Plains_Is1Point0" fullname="MapGeneratorTests.Efficiency_Nuclear_Plains_Is1Point0" methodname="Efficiency_Nuclear_Plains_Is1Point0" classname="MapGeneratorTests" runstate="Runnable" seed="1073105621" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000155" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1132" name="Efficiency_Nuclear_Water_Is1Point0" fullname="MapGeneratorTests.Efficiency_Nuclear_Water_Is1Point0" methodname="Efficiency_Nuclear_Water_Is1Point0" classname="MapGeneratorTests" runstate="Runnable" seed="1501546673" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000154" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1115" name="Efficiency_Solar_Coastal_Is0Point9" fullname="MapGeneratorTests.Efficiency_Solar_Coastal_Is0Point9" methodname="Efficiency_Solar_Coastal_Is0Point9" classname="MapGeneratorTests" runstate="Runnable" seed="1523368436" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000154" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1113" name="Efficiency_Solar_Desert_Is1Point2" fullname="MapGeneratorTests.Efficiency_Solar_Desert_Is1Point2" methodname="Efficiency_Solar_Desert_Is1Point2" classname="MapGeneratorTests" runstate="Runnable" seed="593766281" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000153" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1116" name="Efficiency_Solar_Forest_Is0Point7" fullname="MapGeneratorTests.Efficiency_Solar_Forest_Is0Point7" methodname="Efficiency_Solar_Forest_Is0Point7" classname="MapGeneratorTests" runstate="Runnable" seed="1306294096" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000155" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1117" name="Efficiency_Solar_Mountain_IsZero" fullname="MapGeneratorTests.Efficiency_Solar_Mountain_IsZero" methodname="Efficiency_Solar_Mountain_IsZero" classname="MapGeneratorTests" runstate="Runnable" seed="1427211066" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000160" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1114" name="Efficiency_Solar_Plains_Is1Point0" fullname="MapGeneratorTests.Efficiency_Solar_Plains_Is1Point0" methodname="Efficiency_Solar_Plains_Is1Point0" classname="MapGeneratorTests" runstate="Runnable" seed="350572132" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000156" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1118" name="Efficiency_Solar_Water_IsZero" fullname="MapGeneratorTests.Efficiency_Solar_Water_IsZero" methodname="Efficiency_Solar_Water_IsZero" classname="MapGeneratorTests" runstate="Runnable" seed="929087701" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000161" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1126" name="Efficiency_Tidal_Coastal_Is1Point2" fullname="MapGeneratorTests.Efficiency_Tidal_Coastal_Is1Point2" methodname="Efficiency_Tidal_Coastal_Is1Point2" classname="MapGeneratorTests" runstate="Runnable" seed="740861916" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000154" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1128" name="Efficiency_Tidal_Desert_IsZero" fullname="MapGeneratorTests.Efficiency_Tidal_Desert_IsZero" methodname="Efficiency_Tidal_Desert_IsZero" classname="MapGeneratorTests" runstate="Runnable" seed="923854866" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000154" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1127" name="Efficiency_Tidal_Water_Is1Point0" fullname="MapGeneratorTests.Efficiency_Tidal_Water_Is1Point0" methodname="Efficiency_Tidal_Water_Is1Point0" classname="MapGeneratorTests" runstate="Runnable" seed="1965108683" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000156" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1120" name="Efficiency_Wind_Coastal_Is1Point1" fullname="MapGeneratorTests.Efficiency_Wind_Coastal_Is1Point1" methodname="Efficiency_Wind_Coastal_Is1Point1" classname="MapGeneratorTests" runstate="Runnable" seed="222839323" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000154" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1122" name="Efficiency_Wind_Desert_IsZero" fullname="MapGeneratorTests.Efficiency_Wind_Desert_IsZero" methodname="Efficiency_Wind_Desert_IsZero" classname="MapGeneratorTests" runstate="Runnable" seed="1005416094" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000154" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1121" name="Efficiency_Wind_Mountain_Is1Point0" fullname="MapGeneratorTests.Efficiency_Wind_Mountain_Is1Point0" methodname="Efficiency_Wind_Mountain_Is1Point0" classname="MapGeneratorTests" runstate="Runnable" seed="1064647584" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000153" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1119" name="Efficiency_Wind_Plains_Is1Point2" fullname="MapGeneratorTests.Efficiency_Wind_Plains_Is1Point2" methodname="Efficiency_Wind_Plains_Is1Point2" classname="MapGeneratorTests" runstate="Runnable" seed="2095670801" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000155" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1081" name="GetBiomeAt_NegativeX_ReturnsPlains" fullname="MapGeneratorTests.GetBiomeAt_NegativeX_ReturnsPlains" methodname="GetBiomeAt_NegativeX_ReturnsPlains" classname="MapGeneratorTests" runstate="Runnable" seed="898118101" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000176" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1082" name="GetBiomeAt_NegativeY_ReturnsPlains" fullname="MapGeneratorTests.GetBiomeAt_NegativeY_ReturnsPlains" methodname="GetBiomeAt_NegativeY_ReturnsPlains" classname="MapGeneratorTests" runstate="Runnable" seed="2123595087" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000164" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1077" name="GetBiomeAt_ValidCoord_0_0_ReturnsDesert" fullname="MapGeneratorTests.GetBiomeAt_ValidCoord_0_0_ReturnsDesert" methodname="GetBiomeAt_ValidCoord_0_0_ReturnsDesert" classname="MapGeneratorTests" runstate="Runnable" seed="1911796271" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000165" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1079" name="GetBiomeAt_ValidCoord_1_1_ReturnsCoastal" fullname="MapGeneratorTests.GetBiomeAt_ValidCoord_1_1_ReturnsCoastal" methodname="GetBiomeAt_ValidCoord_1_1_ReturnsCoastal" classname="MapGeneratorTests" runstate="Runnable" seed="339871239" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000165" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1078" name="GetBiomeAt_ValidCoord_2_0_ReturnsMountain" fullname="MapGeneratorTests.GetBiomeAt_ValidCoord_2_0_ReturnsMountain" methodname="GetBiomeAt_ValidCoord_2_0_ReturnsMountain" classname="MapGeneratorTests" runstate="Runnable" seed="1353447535" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000162" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1080" name="GetBiomeAt_ValidCoord_2_1_ReturnsForest" fullname="MapGeneratorTests.GetBiomeAt_ValidCoord_2_1_ReturnsForest" methodname="GetBiomeAt_ValidCoord_2_1_ReturnsForest" classname="MapGeneratorTests" runstate="Runnable" seed="1975577818" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000163" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1083" name="GetBiomeAt_XEqualToWidth_ReturnsPlains" fullname="MapGeneratorTests.GetBiomeAt_XEqualToWidth_ReturnsPlains" methodname="GetBiomeAt_XEqualToWidth_ReturnsPlains" classname="MapGeneratorTests" runstate="Runnable" seed="691263315" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000163" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1084" name="GetBiomeAt_YEqualToHeight_ReturnsPlains" fullname="MapGeneratorTests.GetBiomeAt_YEqualToHeight_ReturnsPlains" methodname="GetBiomeAt_YEqualToHeight_ReturnsPlains" classname="MapGeneratorTests" runstate="Runnable" seed="913343632" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000163" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1133" name="ResearchManagerTests" fullname="ResearchManagerTests" classname="ResearchManagerTests" runstate="Runnable" testcasecount="38" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.035758" total="38" passed="38" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1170" name="ApplyDifficultyProfile_Easy_LowersSolarTier2Cost" fullname="ResearchManagerTests.ApplyDifficultyProfile_Easy_LowersSolarTier2Cost" methodname="ApplyDifficultyProfile_Easy_LowersSolarTier2Cost" classname="ResearchManagerTests" runstate="Runnable" seed="1683556071" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.002656" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1171" name="ApplyDifficultyProfile_Hard_RaisesSolarTier2Cost" fullname="ResearchManagerTests.ApplyDifficultyProfile_Hard_RaisesSolarTier2Cost" methodname="ApplyDifficultyProfile_Hard_RaisesSolarTier2Cost" classname="ResearchManagerTests" runstate="Runnable" seed="1621107395" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000341" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1168" name="BatteryNode_Tier1_CostIs220_OnNormalDifficulty" fullname="ResearchManagerTests.BatteryNode_Tier1_CostIs220_OnNormalDifficulty" methodname="BatteryNode_Tier1_CostIs220_OnNormalDifficulty" classname="ResearchManagerTests" runstate="Runnable" seed="822692013" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000375" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1169" name="BatteryNode_Tier2_CostIs385_OnNormalDifficulty" fullname="ResearchManagerTests.BatteryNode_Tier2_CostIs385_OnNormalDifficulty" methodname="BatteryNode_Tier2_CostIs385_OnNormalDifficulty" classname="ResearchManagerTests" runstate="Runnable" seed="595980159" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000355" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1139" name="GetAllBatteryNodes_Returns10NodesAfterInitialize" fullname="ResearchManagerTests.GetAllBatteryNodes_Returns10NodesAfterInitialize" methodname="GetAllBatteryNodes_Returns10NodesAfterInitialize" classname="ResearchManagerTests" runstate="Runnable" seed="1581801472" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000788" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1138" name="GetAllNodes_Returns50NodesAfterInitialize" fullname="ResearchManagerTests.GetAllNodes_Returns50NodesAfterInitialize" methodname="GetAllNodes_Returns50NodesAfterInitialize" classname="ResearchManagerTests" runstate="Runnable" seed="379646731" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000770" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1163" name="GetBatteryNode_Tier0_ReturnsNull" fullname="ResearchManagerTests.GetBatteryNode_Tier0_ReturnsNull" methodname="GetBatteryNode_Tier0_ReturnsNull" classname="ResearchManagerTests" runstate="Runnable" seed="839726291" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000447" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1162" name="GetBatteryNode_Tier1_ReturnsCorrectNode" fullname="ResearchManagerTests.GetBatteryNode_Tier1_ReturnsCorrectNode" methodname="GetBatteryNode_Tier1_ReturnsCorrectNode" classname="ResearchManagerTests" runstate="Runnable" seed="661926729" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.001776" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1164" name="GetBatteryNode_Tier11_ReturnsNull" fullname="ResearchManagerTests.GetBatteryNode_Tier11_ReturnsNull" methodname="GetBatteryNode_Tier11_ReturnsNull" classname="ResearchManagerTests" runstate="Runnable" seed="1694086157" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000287" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1142" name="GetNextAvailableBatteryTier_InitialState_ReturnsTier1" fullname="ResearchManagerTests.GetNextAvailableBatteryTier_InitialState_ReturnsTier1" methodname="GetNextAvailableBatteryTier_InitialState_ReturnsTier1" classname="ResearchManagerTests" runstate="Runnable" seed="297692245" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000353" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1140" name="GetNextAvailableTier_Solar_ReturnsTier2AfterInitialize" fullname="ResearchManagerTests.GetNextAvailableTier_Solar_ReturnsTier2AfterInitialize" methodname="GetNextAvailableTier_Solar_ReturnsTier2AfterInitialize" classname="ResearchManagerTests" runstate="Runnable" seed="988045906" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000389" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1141" name="GetNextAvailableTier_Wind_ReturnsTier1AfterInitialize" fullname="ResearchManagerTests.GetNextAvailableTier_Wind_ReturnsTier1AfterInitialize" methodname="GetNextAvailableTier_Wind_ReturnsTier1AfterInitialize" classname="ResearchManagerTests" runstate="Runnable" seed="692709280" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000298" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1161" name="GetNode_InvalidId_ReturnsNull" fullname="ResearchManagerTests.GetNode_InvalidId_ReturnsNull" methodname="GetNode_InvalidId_ReturnsNull" classname="ResearchManagerTests" runstate="Runnable" seed="435503428" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000288" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1160" name="GetNode_ValidId_ReturnsCorrectNode" fullname="ResearchManagerTests.GetNode_ValidId_ReturnsCorrectNode" methodname="GetNode_ValidId_ReturnsCorrectNode" classname="ResearchManagerTests" runstate="Runnable" seed="1260722154" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000338" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1137" name="IsUnlocked_NuclearTier1_FalseAfterInitialize" fullname="ResearchManagerTests.IsUnlocked_NuclearTier1_FalseAfterInitialize" methodname="IsUnlocked_NuclearTier1_FalseAfterInitialize" classname="ResearchManagerTests" runstate="Runnable" seed="1699139907" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000365" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1134" name="IsUnlocked_SolarTier1_TrueAfterInitialize" fullname="ResearchManagerTests.IsUnlocked_SolarTier1_TrueAfterInitialize" methodname="IsUnlocked_SolarTier1_TrueAfterInitialize" classname="ResearchManagerTests" runstate="Runnable" seed="2036472085" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000290" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1135" name="IsUnlocked_SolarTier2_FalseAfterInitialize" fullname="ResearchManagerTests.IsUnlocked_SolarTier2_FalseAfterInitialize" methodname="IsUnlocked_SolarTier2_FalseAfterInitialize" classname="ResearchManagerTests" runstate="Runnable" seed="856984179" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000293" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1136" name="IsUnlocked_WindTier1_FalseAfterInitialize" fullname="ResearchManagerTests.IsUnlocked_WindTier1_FalseAfterInitialize" methodname="IsUnlocked_WindTier1_FalseAfterInitialize" classname="ResearchManagerTests" runstate="Runnable" seed="802864295" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000283" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1167" name="ResearchNode_NuclearTier1_CostIs1200_OnNormalDifficulty" fullname="ResearchManagerTests.ResearchNode_NuclearTier1_CostIs1200_OnNormalDifficulty" methodname="ResearchNode_NuclearTier1_CostIs1200_OnNormalDifficulty" classname="ResearchManagerTests" runstate="Runnable" seed="895451573" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000289" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1165" name="ResearchNode_SolarTier1_CostIs100_OnNormalDifficulty" fullname="ResearchManagerTests.ResearchNode_SolarTier1_CostIs100_OnNormalDifficulty" methodname="ResearchNode_SolarTier1_CostIs100_OnNormalDifficulty" classname="ResearchManagerTests" runstate="Runnable" seed="1388436726" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000297" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1166" name="ResearchNode_SolarTier2_CostIs175_OnNormalDifficulty" fullname="ResearchManagerTests.ResearchNode_SolarTier2_CostIs175_OnNormalDifficulty" methodname="ResearchNode_SolarTier2_CostIs175_OnNormalDifficulty" classname="ResearchManagerTests" runstate="Runnable" seed="815943631" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000285" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1157" name="StartBatteryResearch_Tier0_ReturnsFalse" fullname="ResearchManagerTests.StartBatteryResearch_Tier0_ReturnsFalse" methodname="StartBatteryResearch_Tier0_ReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="94856044" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.001943" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Invalid battery tier: 0
+]]></output>
+        </test-case>
+        <test-case id="1156" name="StartBatteryResearch_Tier1_AppearsInActiveBatteryResearch" fullname="ResearchManagerTests.StartBatteryResearch_Tier1_AppearsInActiveBatteryResearch" methodname="StartBatteryResearch_Tier1_AppearsInActiveBatteryResearch" classname="ResearchManagerTests" runstate="Runnable" seed="1806909538" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000921" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Started researching Battery Tier 1
+]]></output>
+        </test-case>
+        <test-case id="1154" name="StartBatteryResearch_Tier1_ReturnsTrue" fullname="ResearchManagerTests.StartBatteryResearch_Tier1_ReturnsTrue" methodname="StartBatteryResearch_Tier1_ReturnsTrue" classname="ResearchManagerTests" runstate="Runnable" seed="472271744" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000727" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Started researching Battery Tier 1
+]]></output>
+        </test-case>
+        <test-case id="1155" name="StartBatteryResearch_Tier1_SetsIsResearchingTrue" fullname="ResearchManagerTests.StartBatteryResearch_Tier1_SetsIsResearchingTrue" methodname="StartBatteryResearch_Tier1_SetsIsResearchingTrue" classname="ResearchManagerTests" runstate="Runnable" seed="604847341" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000745" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Started researching Battery Tier 1
+]]></output>
+        </test-case>
+        <test-case id="1158" name="StartBatteryResearch_Tier11_ReturnsFalse" fullname="ResearchManagerTests.StartBatteryResearch_Tier11_ReturnsFalse" methodname="StartBatteryResearch_Tier11_ReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="947091237" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000696" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Invalid battery tier: 11
+]]></output>
+        </test-case>
+        <test-case id="1159" name="StartBatteryResearch_Tier2_WithoutTier1Unlocked_ReturnsFalse" fullname="ResearchManagerTests.StartBatteryResearch_Tier2_WithoutTier1Unlocked_ReturnsFalse" methodname="StartBatteryResearch_Tier2_WithoutTier1Unlocked_ReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="569564429" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000682" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Must unlock previous battery tier first!
+]]></output>
+        </test-case>
+        <test-case id="1153" name="StartResearch_InvalidNodeId_ReturnsFalse" fullname="ResearchManagerTests.StartResearch_InvalidNodeId_ReturnsFalse" methodname="StartResearch_InvalidNodeId_ReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="2109544936" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.001080" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Research node NotARealNode_Tier99 not found!
+]]></output>
+        </test-case>
+        <test-case id="1147" name="StartResearch_SolarTier1_AlreadyUnlocked_ReturnsFalse" fullname="ResearchManagerTests.StartResearch_SolarTier1_AlreadyUnlocked_ReturnsFalse" methodname="StartResearch_SolarTier1_AlreadyUnlocked_ReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="97783726" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000765" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Already unlocked!
+]]></output>
+        </test-case>
+        <test-case id="1146" name="StartResearch_SolarTier2_AppearsInActiveResearch" fullname="ResearchManagerTests.StartResearch_SolarTier2_AppearsInActiveResearch" methodname="StartResearch_SolarTier2_AppearsInActiveResearch" classname="ResearchManagerTests" runstate="Runnable" seed="1718381545" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.001265" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Started researching Solar_Tier2
+]]></output>
+        </test-case>
+        <test-case id="1145" name="StartResearch_SolarTier2_DeductsEnergyFromGameManager" fullname="ResearchManagerTests.StartResearch_SolarTier2_DeductsEnergyFromGameManager" methodname="StartResearch_SolarTier2_DeductsEnergyFromGameManager" classname="ResearchManagerTests" runstate="Runnable" seed="921142376" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000728" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Started researching Solar_Tier2
+]]></output>
+        </test-case>
+        <test-case id="1144" name="StartResearch_SolarTier2_SetsIsResearchingTrue" fullname="ResearchManagerTests.StartResearch_SolarTier2_SetsIsResearchingTrue" methodname="StartResearch_SolarTier2_SetsIsResearchingTrue" classname="ResearchManagerTests" runstate="Runnable" seed="1860055559" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000887" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Started researching Solar_Tier2
+]]></output>
+        </test-case>
+        <test-case id="1150" name="StartResearch_SolarTier2_Twice_SecondCallReturnsFalse" fullname="ResearchManagerTests.StartResearch_SolarTier2_Twice_SecondCallReturnsFalse" methodname="StartResearch_SolarTier2_Twice_SecondCallReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="702812753" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.001121" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Started researching Solar_Tier2
+Already researching!
+]]></output>
+        </test-case>
+        <test-case id="1143" name="StartResearch_SolarTier2_WithPreviousTierUnlocked_ReturnsTrue" fullname="ResearchManagerTests.StartResearch_SolarTier2_WithPreviousTierUnlocked_ReturnsTrue" methodname="StartResearch_SolarTier2_WithPreviousTierUnlocked_ReturnsTrue" classname="ResearchManagerTests" runstate="Runnable" seed="1564283160" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000695" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Started researching Solar_Tier2
+]]></output>
+        </test-case>
+        <test-case id="1148" name="StartResearch_SolarTier3_WithoutTier2_ReturnsFalse" fullname="ResearchManagerTests.StartResearch_SolarTier3_WithoutTier2_ReturnsFalse" methodname="StartResearch_SolarTier3_WithoutTier2_ReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="1056994018" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000692" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Must unlock previous tier first!
+]]></output>
+        </test-case>
+        <test-case id="1149" name="StartResearch_WindTier2_WithoutWindTier1_ReturnsFalse" fullname="ResearchManagerTests.StartResearch_WindTier2_WithoutWindTier1_ReturnsFalse" methodname="StartResearch_WindTier2_WithoutWindTier1_ReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="265113038" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000711" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Must unlock previous tier first!
+]]></output>
+        </test-case>
+        <test-case id="1152" name="StartResearch_WithInsufficientEnergy_DoesNotSetResearching" fullname="ResearchManagerTests.StartResearch_WithInsufficientEnergy_DoesNotSetResearching" methodname="StartResearch_WithInsufficientEnergy_DoesNotSetResearching" classname="ResearchManagerTests" runstate="Runnable" seed="2057965710" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000704" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Not enough energy! Need 175
+]]></output>
+        </test-case>
+        <test-case id="1151" name="StartResearch_WithInsufficientEnergy_ReturnsFalse" fullname="ResearchManagerTests.StartResearch_WithInsufficientEnergy_ReturnsFalse" methodname="StartResearch_WithInsufficientEnergy_ReturnsFalse" classname="ResearchManagerTests" runstate="Runnable" seed="348616828" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000689" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Not enough energy! Need 175
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1172" name="TimeManagerTests" fullname="TimeManagerTests" classname="TimeManagerTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.010161" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1185" name="GetDayNightMultiplier_At6AM_IsPositive" fullname="TimeManagerTests.GetDayNightMultiplier_At6AM_IsPositive" methodname="GetDayNightMultiplier_At6AM_IsPositive" classname="TimeManagerTests" runstate="Runnable" seed="1551361684" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000705" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1184" name="GetDayNightMultiplier_AtEndOfDay_IsZeroOrNearZero" fullname="TimeManagerTests.GetDayNightMultiplier_AtEndOfDay_IsZeroOrNearZero" methodname="GetDayNightMultiplier_AtEndOfDay_IsZeroOrNearZero" classname="TimeManagerTests" runstate="Runnable" seed="627880685" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000173" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1182" name="GetDayNightMultiplier_AtMidnight_IsZeroOrNearZero" fullname="TimeManagerTests.GetDayNightMultiplier_AtMidnight_IsZeroOrNearZero" methodname="GetDayNightMultiplier_AtMidnight_IsZeroOrNearZero" classname="TimeManagerTests" runstate="Runnable" seed="157123342" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000162" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1183" name="GetDayNightMultiplier_AtNoon_IsOne" fullname="TimeManagerTests.GetDayNightMultiplier_AtNoon_IsOne" methodname="GetDayNightMultiplier_AtNoon_IsOne" classname="TimeManagerTests" runstate="Runnable" seed="361612523" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000158" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1186" name="GetDayNightMultiplier_IsAlwaysNonNegative" fullname="TimeManagerTests.GetDayNightMultiplier_IsAlwaysNonNegative" methodname="GetDayNightMultiplier_IsAlwaysNonNegative" classname="TimeManagerTests" runstate="Runnable" seed="491067355" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000419" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1187" name="GetDayNightMultiplier_NoonIsHigherThanMorning" fullname="TimeManagerTests.GetDayNightMultiplier_NoonIsHigherThanMorning" methodname="GetDayNightMultiplier_NoonIsHigherThanMorning" classname="TimeManagerTests" runstate="Runnable" seed="731653332" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000201" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1181" name="SetGameplayPaused_DoesNotChangeCurrentTimeSpeed" fullname="TimeManagerTests.SetGameplayPaused_DoesNotChangeCurrentTimeSpeed" methodname="SetGameplayPaused_DoesNotChangeCurrentTimeSpeed" classname="TimeManagerTests" runstate="Runnable" seed="306075211" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000211" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1180" name="SetGameplayPaused_False_ClearsIsGameplayPaused" fullname="TimeManagerTests.SetGameplayPaused_False_ClearsIsGameplayPaused" methodname="SetGameplayPaused_False_ClearsIsGameplayPaused" classname="TimeManagerTests" runstate="Runnable" seed="1645319217" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000173" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1179" name="SetGameplayPaused_True_SetsIsGameplayPausedTrue" fullname="TimeManagerTests.SetGameplayPaused_True_SetsIsGameplayPausedTrue" methodname="SetGameplayPaused_True_SetsIsGameplayPausedTrue" classname="TimeManagerTests" runstate="Runnable" seed="282198804" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000163" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1176" name="SetTimeSpeed_Normal_ClearsIsGameplayPausedFlag" fullname="TimeManagerTests.SetTimeSpeed_Normal_ClearsIsGameplayPausedFlag" methodname="SetTimeSpeed_Normal_ClearsIsGameplayPausedFlag" classname="TimeManagerTests" runstate="Runnable" seed="1310506903" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000174" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1173" name="SetTimeSpeed_Normal_SetsCurrentTimeSpeedToNormal" fullname="TimeManagerTests.SetTimeSpeed_Normal_SetsCurrentTimeSpeedToNormal" methodname="SetTimeSpeed_Normal_SetsCurrentTimeSpeedToNormal" classname="TimeManagerTests" runstate="Runnable" seed="1635928535" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000177" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1174" name="SetTimeSpeed_Paused_SetsCurrentTimeSpeedToPaused" fullname="TimeManagerTests.SetTimeSpeed_Paused_SetsCurrentTimeSpeedToPaused" methodname="SetTimeSpeed_Paused_SetsCurrentTimeSpeedToPaused" classname="TimeManagerTests" runstate="Runnable" seed="692534118" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000176" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1175" name="SetTimeSpeed_Paused_SetsIsGameplayPausedTrue" fullname="TimeManagerTests.SetTimeSpeed_Paused_SetsIsGameplayPausedTrue" methodname="SetTimeSpeed_Paused_SetsIsGameplayPausedTrue" classname="TimeManagerTests" runstate="Runnable" seed="978332581" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000166" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1178" name="SetTimeSpeed_Speed10x_DoesNotPauseGame" fullname="TimeManagerTests.SetTimeSpeed_Speed10x_DoesNotPauseGame" methodname="SetTimeSpeed_Speed10x_DoesNotPauseGame" classname="TimeManagerTests" runstate="Runnable" seed="1260770103" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000173" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1177" name="SetTimeSpeed_Speed10x_SetsCorrectSpeed" fullname="TimeManagerTests.SetTimeSpeed_Speed10x_SetsCorrectSpeed" methodname="SetTimeSpeed_Speed10x_SetsCorrectSpeed" classname="TimeManagerTests" runstate="Runnable" seed="2091579294" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000220" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1188" name="TimeSystemUtilsTests" fullname="TimeSystemUtilsTests" classname="TimeSystemUtilsTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.010025" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1199" name="GetSpeedMultiplier_AllKnownSpeeds_AreNonNegative" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_AllKnownSpeeds_AreNonNegative" methodname="GetSpeedMultiplier_AllKnownSpeeds_AreNonNegative" classname="TimeSystemUtilsTests" runstate="Runnable" seed="1376195184" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000419" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1194" name="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue" classname="TimeSystemUtilsTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.003687" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1189" name="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Paused,0.0f)" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Paused,0.0f)" methodname="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue" classname="TimeSystemUtilsTests" runstate="Runnable" seed="319144012" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000314" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1190" name="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Normal,1.0f)" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Normal,1.0f)" methodname="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue" classname="TimeSystemUtilsTests" runstate="Runnable" seed="613321995" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000060" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1191" name="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Speed2x,2.0f)" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Speed2x,2.0f)" methodname="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue" classname="TimeSystemUtilsTests" runstate="Runnable" seed="1417425827" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000053" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1192" name="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Speed5x,5.0f)" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Speed5x,5.0f)" methodname="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue" classname="TimeSystemUtilsTests" runstate="Runnable" seed="1577581342" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000049" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1193" name="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Speed10x,10.0f)" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue(Speed10x,10.0f)" methodname="GetSpeedMultiplier_KnownSpeed_ReturnsCorrectValue" classname="TimeSystemUtilsTests" runstate="Runnable" seed="979421445" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000051" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-case id="1196" name="GetSpeedMultiplier_Normal_ReturnsOne" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_Normal_ReturnsOne" methodname="GetSpeedMultiplier_Normal_ReturnsOne" classname="TimeSystemUtilsTests" runstate="Runnable" seed="806764912" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000089" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1195" name="GetSpeedMultiplier_Paused_ReturnsZero" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_Paused_ReturnsZero" methodname="GetSpeedMultiplier_Paused_ReturnsZero" classname="TimeSystemUtilsTests" runstate="Runnable" seed="970457277" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000070" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1197" name="GetSpeedMultiplier_Speed10x_IsHigherThanSpeed5x" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_Speed10x_IsHigherThanSpeed5x" methodname="GetSpeedMultiplier_Speed10x_IsHigherThanSpeed5x" classname="TimeSystemUtilsTests" runstate="Runnable" seed="70529563" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000094" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1198" name="GetSpeedMultiplier_UnknownSpeed_DefaultsToOne" fullname="TimeSystemUtilsTests.GetSpeedMultiplier_UnknownSpeed_DefaultsToOne" methodname="GetSpeedMultiplier_UnknownSpeed_DefaultsToOne" classname="TimeSystemUtilsTests" runstate="Runnable" seed="1717025866" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000069" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1200" name="UIThemeTests" fullname="UIThemeTests" classname="UIThemeTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.006662" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1215" name="AnimationFastDuration_IsLessThanNormal" fullname="UIThemeTests.AnimationFastDuration_IsLessThanNormal" methodname="AnimationFastDuration_IsLessThanNormal" classname="UIThemeTests" runstate="Runnable" seed="694231116" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000445" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1216" name="AnimationNormalDuration_IsLessThanSlow" fullname="UIThemeTests.AnimationNormalDuration_IsLessThanSlow" methodname="AnimationNormalDuration_IsLessThanSlow" classname="UIThemeTests" runstate="Runnable" seed="1353918526" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000073" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1212" name="GetButtonColor_BothHoverAndPressed_PressedTakesPriority" fullname="UIThemeTests.GetButtonColor_BothHoverAndPressed_PressedTakesPriority" methodname="GetButtonColor_BothHoverAndPressed_PressedTakesPriority" classname="UIThemeTests" runstate="Runnable" seed="1828658727" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000618" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1210" name="GetButtonColor_HoverOnly_ReturnsHoverColor" fullname="UIThemeTests.GetButtonColor_HoverOnly_ReturnsHoverColor" methodname="GetButtonColor_HoverOnly_ReturnsHoverColor" classname="UIThemeTests" runstate="Runnable" seed="1185822552" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000108" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1209" name="GetButtonColor_NeitherHoverNorPressed_ReturnsNormalColor" fullname="UIThemeTests.GetButtonColor_NeitherHoverNorPressed_ReturnsNormalColor" methodname="GetButtonColor_NeitherHoverNorPressed_ReturnsNormalColor" classname="UIThemeTests" runstate="Runnable" seed="2063830847" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000102" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1211" name="GetButtonColor_PressedOnly_ReturnsPressedColor" fullname="UIThemeTests.GetButtonColor_PressedOnly_ReturnsPressedColor" methodname="GetButtonColor_PressedOnly_ReturnsPressedColor" classname="UIThemeTests" runstate="Runnable" seed="773225909" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000097" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1208" name="LerpColor_HalfT_ReturnsMidpoint" fullname="UIThemeTests.LerpColor_HalfT_ReturnsMidpoint" methodname="LerpColor_HalfT_ReturnsMidpoint" classname="UIThemeTests" runstate="Runnable" seed="902813954" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000190" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1207" name="LerpColor_OneT_ReturnsToColor" fullname="UIThemeTests.LerpColor_OneT_ReturnsToColor" methodname="LerpColor_OneT_ReturnsToColor" classname="UIThemeTests" runstate="Runnable" seed="1104019597" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000152" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1206" name="LerpColor_ZeroT_ReturnsFromColor" fullname="UIThemeTests.LerpColor_ZeroT_ReturnsFromColor" methodname="LerpColor_ZeroT_ReturnsFromColor" classname="UIThemeTests" runstate="Runnable" seed="1001532085" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000140" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1213" name="OpacityFull_IsOne" fullname="UIThemeTests.OpacityFull_IsOne" methodname="OpacityFull_IsOne" classname="UIThemeTests" runstate="Runnable" seed="1392043116" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000069" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1214" name="OpacityVeryLow_IsLessThanOpacityLow" fullname="UIThemeTests.OpacityVeryLow_IsLessThanOpacityLow" methodname="OpacityVeryLow_IsLessThanOpacityLow" classname="UIThemeTests" runstate="Runnable" seed="326041869" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000069" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1205" name="WithAlpha_DoesNotMutateColorConstant" fullname="UIThemeTests.WithAlpha_DoesNotMutateColorConstant" methodname="WithAlpha_DoesNotMutateColorConstant" classname="UIThemeTests" runstate="Runnable" seed="1204984064" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000116" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1204" name="WithAlpha_OneAlpha_IsFullyOpaque" fullname="UIThemeTests.WithAlpha_OneAlpha_IsFullyOpaque" methodname="WithAlpha_OneAlpha_IsFullyOpaque" classname="UIThemeTests" runstate="Runnable" seed="821412987" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000096" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1202" name="WithAlpha_PreservesRGBChannels" fullname="UIThemeTests.WithAlpha_PreservesRGBChannels" methodname="WithAlpha_PreservesRGBChannels" classname="UIThemeTests" runstate="Runnable" seed="421887957" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000128" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1201" name="WithAlpha_SetsAlphaToProvidedValue" fullname="UIThemeTests.WithAlpha_SetsAlphaToProvidedValue" methodname="WithAlpha_SetsAlphaToProvidedValue" classname="UIThemeTests" runstate="Runnable" seed="437560632" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000099" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1203" name="WithAlpha_ZeroAlpha_IsFullyTransparent" fullname="UIThemeTests.WithAlpha_ZeroAlpha_IsFullyTransparent" methodname="WithAlpha_ZeroAlpha_IsFullyTransparent" classname="UIThemeTests" runstate="Runnable" seed="1548625990" result="Passed" start-time="2026-04-13 11:42:05Z" end-time="2026-04-13 11:42:05Z" duration="0.000090" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:/Users/samni/AppData/LocalLow/DefaultCompany/Test for green enrergy\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
