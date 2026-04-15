@@ -1,6 +1,6 @@
 # Green Energy — Project Reference
 
-The player reduces atmospheric CO₂ from 420 ppm to a difficulty-dependent target by placing and upgrading renewable energy generators on a procedurally generated biome map. All core systems are singletons coordinated by `GameManager`.
+The player reduces atmospheric CO2 from 420 ppm to a difficulty-dependent target by placing and upgrading renewable energy generators on a procedurally generated biome map. Runtime flow is coordinated by the `GameManager` singleton, with `TimeManager` and `EnergyManager` as attached components.
 
 ---
 
@@ -13,7 +13,7 @@ The player reduces atmospheric CO₂ from 420 ppm to a difficulty-dependent targ
 - [Dependency Rules](#dependency-rules)
 - [UI Design System](#ui-design-system)
 - [UI System Reference](#ui-system-reference)
-- [Comment Quality Standards](#comment-quality-standards)
+- [Comment Format](#comment-format)
 - [Maintenance Notes](#maintenance-notes)
 
 ---
@@ -24,7 +24,7 @@ The player reduces atmospheric CO₂ from 420 ppm to a difficulty-dependent targ
 Systems/       core game loop, balance, energy, time, save/load
 Gameplay/      map, generators, research, camera control, PDA encyclopedia
 UI/            menu controllers and UI setup helpers
-Core/          shared theming, animation, styling, notification utilities
+Core/          shared theming, animation, and styling helpers
 Utilities/     small helpers used by multiple systems
 ```
 
@@ -60,11 +60,11 @@ graph TD
 | Script | Path | Purpose |
 |--------|------|---------|
 | `TimeSystemUtils` | `Utilities/TimeSystemUtils.cs` | Static helper; converts `TimeSpeed` enum to a float multiplier (0, 1, 2, 5, 10). Used everywhere that applies speed-scaled `Time.deltaTime`. |
-| `DifficultyBalance` | `Systems/DifficultyBalance.cs` | Defines `GameDifficulty` enum, `DifficultyBalanceProfile` value-struct (all balance constants), and `DifficultyBalanceLibrary` (pre-built Easy/Normal/Hard profiles + parse helper). All tuning lives here. The carbon lose threshold is additive: `targetCarbon + carbonLoseThresholdOffset`, not a flat value. |
+| `DifficultyBalance` | `Systems/DifficultyBalance.cs` | Defines `GameDifficulty` enum, `DifficultyBalanceProfile` value-struct (all balance constants), and `DifficultyBalanceLibrary` (pre-built Easy/Normal/Hard profiles + parse helper). All tuning lives here. Lose threshold is additive in runtime logic: `STARTING_CARBON + loseCarbonOffset`. |
 
 ---
 
-### Layer 2 — Core Systems (Singletons)
+### Layer 2 — Core Systems
 
 | Script | Path | Purpose |
 |--------|------|---------|
@@ -98,7 +98,6 @@ graph TD
 | `UIAnimationHelper` | `Core/UIAnimationHelper.cs` | Static coroutine library for all UI motion: fade in/out, slide from edges, button press/hover scale, colour flash, panel open scale. All animations are `IEnumerator`s — call via `StartCoroutine()`. |
 | `UIStyleBootstrapper` | `Core/UIStyleBootstrapper.cs` | On `Start()` (or manual `ApplyTheme()` call), walks the canvas hierarchy and bulk-applies `UITheme` colours to Images, Buttons, TextMeshPro, Sliders, and Toggles. |
 | `MenuAnimationSetup` | `Core/MenuAnimationSetup.cs` | Lightweight component that ensures a `CanvasGroup` exists on its GameObject, enabling `UIAnimationHelper` fade-in/out on any panel. Added programmatically by `UIManager` to every menu panel. |
-| `NotificationSystem` | `Core/NotificationSystem.cs` | Centralized toast notification system. Displays messages in the top-right corner with colour-coded types (cyan=info, green=success, orange=warning, red=error). Auto-dismisses after 3 seconds with slide+fade animations. |
 
 ---
 
@@ -184,7 +183,7 @@ graph TD
 ### Key Data-Flow Paths
 
 **Energy loop (every frame while Playing):**
-`GameManager.Update()` → `EnergyManager.UpdateEnergy()` → `GeneratorManager.GetTotalEnergyProduction(timeOfDay)` → `MapGenerator.GetBiomeEfficiencyMultiplier()` → result capped at `maxEnergyStorage` → `UIManager.UpdateEnergyDisplay()`
+`GameManager.Update()` → `GameManager.UpdateEnergy()` → `GeneratorManager.GetTotalEnergyProduction(timeOfDay)` → result added with time-speed multiplier and capped at `maxEnergyStorage` → `UIManager.UpdateEnergyDisplay()`
 
 **Carbon reduction loop (every frame while Playing):**
 `GameManager.UpdateCarbonLevel()` reads `GeneratorManager.GetTotalEnergyProduction(0.5f)` × `DifficultyBalanceProfile.carbonReductionMultiplier` → subtracts from `carbonLevel` → adds penalty if below underproduction threshold → `UIManager.UpdateCarbonDisplay()`
@@ -227,7 +226,7 @@ Player selects generator in `BuildMenuController` → clicks map tile → `Gener
 ## Dependency Rules
 
 - **Utilities / Data** (`TimeSystemUtils`, `DifficultyBalance`) — no dependencies; called by everything.
-- **Core Systems** — call each other via singleton accessors; never call UI directly except through `UIManager`.
+- **Core Systems** — call each other via singleton accessors where applicable. `TimeManager` and `EnergyManager` may update displays through their `UIManager` reference.
 - **Gameplay Systems** — call Core Systems and can call `PDAProgressionSystem`.
 - **UI** — reads from all layers; never owns game-logic state; pushes changes back through `GameManager` public methods.
 - **Stylers** — depend only on `UITheme`, `ButtonStyle`, `PanelStyle`; no game-logic dependencies.
@@ -369,18 +368,6 @@ StartCoroutine(UIAnimationHelper.AnimateColorChange(image, UITheme.ColorAccentGr
 StartCoroutine(UIAnimationHelper.AnimatePanelOpen(panelRect, 0.3f));
 ```
 
-### NotificationSystem
-
-```csharp
-NotificationSystem.Instance.ShowSuccess("Energy generated!");
-NotificationSystem.Instance.ShowError("Not enough energy");
-NotificationSystem.Instance.ShowWarning("Carbon rising!");
-NotificationSystem.Instance.ShowInfo("New entry unlocked");
-NotificationSystem.Instance.Show("Custom message", UITheme.ColorAccentCyan, duration: 4f);
-```
-
-Notifications appear top-right, slide in from the right (0.15s), stay for 3 seconds, then slide out. Multiple notifications queue properly.
-
 ### Common Patterns
 
 **Styled menu panel:**
@@ -428,9 +415,10 @@ Used across all scripts:
 
 ## Maintenance Notes
 
-- `GameManager`, `UIManager`, `SaveLoadSystem`, `TimeManager`, `EnergyManager`, `ResearchManager`, `GeneratorManager`, and `PDAProgressionSystem` are the key runtime singletons.
+- `GameManager`, `UIManager`, `SaveLoadSystem`, `ResearchManager`, `GeneratorManager`, and `PDAProgressionSystem` are the key runtime singletons. `TimeManager` and `EnergyManager` are runtime components managed by `GameManager`.
 - `DifficultyBalance` is the main source of tuning values; `GameManager` can override some effective values through serialized fields — use `GameManager.Instance.CurrentDifficultyProfile` at runtime so inspector overrides are respected.
 - The UI is driven by setup and styling helpers; if a menu looks wrong, inspect both the controller and the corresponding styler.
 - The PDA system depends on CSV content in `Resources/PDAEntries.csv`; content or unlock rule changes need to be reflected in both the data and the save system.
 - `ResearchMenuController` finds buttons by name — they must follow the `{Type}ResearchButton` convention (e.g. `SolarResearchButton`).
 - `PDAProgressionSystem.Instance` lazily creates a GameObject if accessed when none exists. Use `ExistingInstance` in cleanup/`OnDisable` code to avoid unintended creation.
+- `Assets/Scripts` currently contains legacy root-level duplicates (for example `Assets/Scripts/GameManager.cs`) alongside the organized architecture folders (`Systems`, `Gameplay`, `UI`, `Core`, `Utilities`). Current architecture and references in this document target the organized folders.
