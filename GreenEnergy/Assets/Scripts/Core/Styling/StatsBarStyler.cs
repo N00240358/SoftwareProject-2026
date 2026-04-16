@@ -90,6 +90,7 @@ public class StatsBarStyler : MonoBehaviour
         {
             uiManager.buildMenuButton,
             uiManager.researchMenuButton,
+            uiManager.pdaMenuButton,
             uiManager.settingsButton,
             uiManager.timeControlButton
         };

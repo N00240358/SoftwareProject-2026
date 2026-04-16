@@ -64,6 +64,7 @@ public class PDAMenuController : MonoBehaviour
     {
         EnsureRuntimeLayoutComponents();
         EnsureLayoutReferences();
+        ApplyStyling();
         BindProgressionEvents();
         RefreshPanel();
     }
@@ -75,6 +76,9 @@ public class PDAMenuController : MonoBehaviour
     /// </summary>
     public void RefreshPanel()
     {
+        // Re-apply palette in case scene/authored colors drift from theme values.
+        ApplyStyling();
+
         if (PDAProgressionSystem.Instance == null)
         {
             SetEmptyState("PDA unavailable", "PDA data could not be loaded.");
@@ -186,6 +190,64 @@ public class PDAMenuController : MonoBehaviour
         if (closeButton != null)
         {
             ButtonStyle.ApplyMinimalStyle(closeButton, "X");
+        }
+
+        Transform headerTransform = pdaMenuPanel.transform.Find("Header");
+        if (headerTransform != null)
+        {
+            Image headerImage = headerTransform.GetComponent<Image>();
+            if (headerImage != null)
+            {
+                headerImage.color = UITheme.ColorBackgroundMedium;
+            }
+
+            TextMeshProUGUI headerTitle = headerTransform.Find("Title")?.GetComponent<TextMeshProUGUI>();
+            if (headerTitle != null)
+            {
+                headerTitle.color = UITheme.ColorTextAccent;
+                headerTitle.fontSize = 40;
+                headerTitle.fontStyle = FontStyles.Bold;
+            }
+        }
+
+        Transform sidebarTransform = pdaMenuPanel.transform.Find("Content/Sidebar");
+        if (sidebarTransform != null)
+        {
+            Image sidebarImage = sidebarTransform.GetComponent<Image>();
+            if (sidebarImage != null)
+            {
+                sidebarImage.color = UITheme.WithAlpha(UITheme.ColorBackgroundDark, 0.85f);
+            }
+
+            Transform viewportTransform = sidebarTransform.Find("Viewport");
+            if (viewportTransform != null)
+            {
+                Image viewportImage = viewportTransform.GetComponent<Image>();
+                if (viewportImage != null)
+                {
+                    viewportImage.color = UITheme.WithAlpha(UITheme.ColorBackgroundDark, 0.05f);
+                }
+            }
+        }
+
+        Transform detailsTransform = pdaMenuPanel.transform.Find("Content/Details");
+        if (detailsTransform != null)
+        {
+            Image detailsImage = detailsTransform.GetComponent<Image>();
+            if (detailsImage != null)
+            {
+                detailsImage.color = UITheme.WithAlpha(UITheme.ColorBackgroundDark, 0.7f);
+            }
+        }
+
+        Transform contentTransform = pdaMenuPanel.transform.Find("Content");
+        if (contentTransform != null)
+        {
+            Image contentImage = contentTransform.GetComponent<Image>();
+            if (contentImage != null)
+            {
+                contentImage.color = UITheme.WithAlpha(UITheme.ColorBackgroundDark, 0.2f);
+            }
         }
 
         if (entryTitleText != null)
