@@ -40,11 +40,9 @@ public class GameManagerIntegrationTests
     public void TearDown()
     {
         if (_go != null)
-            Object.Destroy(_go);
+            Object.DestroyImmediate(_go);
         // Clear the static Instance so the next test's Awake doesn't see a stale
         // reference and destroy the new GameObject via the singleton guard.
-        // (Object.Destroy is deferred in PlayMode, so without this the previous
-        // test's Instance remains non-null when the next SetUp runs.)
         typeof(GameManager)
             .GetProperty("Instance", BindingFlags.Public | BindingFlags.Static)
             .SetValue(null, null);
